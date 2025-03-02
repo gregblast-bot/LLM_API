@@ -11,6 +11,11 @@
     <OutputPath>.</OutputPath>
     <Name>LLMAPI</Name>
     <RootNamespace>LLMAPI</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <Environment>GEMINI_API_KEY=AIzaSyAMbKfnco1FYMi28wzH6vVsM5zzcKjUts4</Environment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
